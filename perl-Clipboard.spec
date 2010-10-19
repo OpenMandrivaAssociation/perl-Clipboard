@@ -1,6 +1,6 @@
 %define module   Clipboard
-%define version    0.09
-%define release    %mkrel 2
+%define version    0.13
+%define release    %mkrel 1
 
 Name:       perl-%{module}
 Version:    %{version}
@@ -9,7 +9,7 @@ License:    GPL or Artistic
 Group:      Development/Perl
 Summary:    Copy and paste with any OS
 Url:        http://search.cpan.org/dist/%{module}
-Source:     http://www.cpan.org/modules/by-module//%{module}-%{version}.tar.gz
+Source:     http://www.cpan.org/modules/by-module/%{module}-%{version}.tar.gz
 BuildRequires: perl(Spiffy)
 BuildArch: noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
