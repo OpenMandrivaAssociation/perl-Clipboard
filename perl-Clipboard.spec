@@ -6,7 +6,7 @@
 
 Name:		perl-%{module}
 Version:	0.13
-Release:	5
+Release:	6
 Summary:	Copy and paste with any OS
 License:	GPL or Artistic
 Group:		Development/Perl
