@@ -10,7 +10,7 @@ Release:	6
 Summary:	Copy and paste with any OS
 License:	GPL or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{module}
+Url:		https://search.cpan.org/dist/%{module}
 Source:		http://www.cpan.org/modules/by-module/%{module}-%{version}.tar.gz
 BuildRequires:	perl-devel
 BuildRequires:	perl(Spiffy)
