@@ -12,6 +12,7 @@ License:	GPL or Artistic
 Group:		Development/Perl
 Url:		https://search.cpan.org/dist/%{module}
 Source:		http://www.cpan.org/modules/by-module/%{module}-%{version}.tar.gz
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(Spiffy)
 BuildArch:	noarch
