@@ -5,13 +5,13 @@
 %endif
 
 Name:		perl-%{module}
-Version:	0.13
-Release:	6
+Version:	0.32
+Release:	1
 Summary:	Copy and paste with any OS
 License:	GPL or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{module}
-Source:		http://www.cpan.org/modules/by-module/%{module}-%{version}.tar.gz
+Url:		http://metacpan.org/release/Clipboard
+Source:		https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/%{module}-%{version}.tar.gz
 BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(Spiffy)
